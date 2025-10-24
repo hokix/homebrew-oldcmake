@@ -1,4 +1,4 @@
-# hokix Oldcmake
+# Homebrew Oldcmake
 
 ## How do I install these formulae?
 
