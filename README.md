@@ -1,15 +1,15 @@
-# Ted Oldcmake
+# hokix Oldcmake
 
 ## How do I install these formulae?
 
-`brew install ted/oldcmake/<formula>`
+`brew install hokix/oldcmake/<formula>`
 
-Or `brew tap ted/oldcmake` and then `brew install <formula>`.
+Or `brew tap hokix/oldcmake` and then `brew install <formula>`.
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
-tap "ted/oldcmake"
+tap "hokix/oldcmake"
 brew "<formula>"
 ```
 
