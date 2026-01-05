@@ -23,13 +23,13 @@ class ZbarAT010 < Formula
     depends_on "xmlto" => :build
   end
 
-  depends_on :macos
   depends_on "pkg-config" => :build
   depends_on "freetype"
   depends_on "imagemagick"
   depends_on "jpeg"
   depends_on "libtool"
   depends_on "xz"
+  depends_on :macos
 
   def install
     if build.head?
