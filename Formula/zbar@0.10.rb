@@ -14,7 +14,7 @@ class ZbarAT010 < Formula
   end
 
   head do
-    url "https://github.com/ZBar/ZBar.git"
+    url "https://github.com/ZBar/ZBar.git", branch: "master"
 
     depends_on "autoconf" => :build
     depends_on "automake" => :build
