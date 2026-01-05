@@ -23,6 +23,7 @@ class ZbarAT010 < Formula
     depends_on "xmlto" => :build
   end
 
+  depends_on :macos
   depends_on "pkg-config" => :build
   depends_on "freetype"
   depends_on "imagemagick"
