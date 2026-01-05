@@ -28,8 +28,8 @@ class ZbarAT010 < Formula
   depends_on "imagemagick"
   depends_on "jpeg"
   depends_on "libtool"
-  depends_on "xz"
   depends_on :macos
+  depends_on "xz"
 
   def install
     if build.head?
